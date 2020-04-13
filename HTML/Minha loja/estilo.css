@@ -1,0 +1,87 @@
+body{
+	background-color: rgb(200, 200, 200);
+	font-family: "Arial";
+}
+
+#cabecalho{
+	border: black 1px solid;
+	border-radius: 10px; 
+	padding: 10px;
+	margin-bottom: 30px;
+	box-shadow: black 2px 2px 5px;
+	animation-name: mudacor;
+	animation-duration: 5s;
+	color:red;
+}
+
+@keyframes mudacor{
+	from {color: yellow;}
+	to {color: red;}
+}
+
+#conteudo{
+	background-color: rgb(255,255,255);
+	margin: 0% 5%;
+	padding: 30px;
+}
+
+a{
+	color: rgb(0,0,0);
+	text-decoration: none;
+}
+
+#navbar{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+#imagemLoja{
+	width: 100%;
+}
+
+#titulodestaque{
+	text-align: center;
+	text-shadow: rgb(230,230,230) 1px 1px 5px;
+}
+
+#produtos{
+	display: flex;
+	justify-content: space-between;
+}
+
+.produtoDestaque{
+	border: rgb(200,200,200) 1px solid;
+	margin: 10px;
+	box-shadow: rgb(200,200,200) 2px 2px 10px;
+	text-align: center;
+}
+
+.produtoDestaque img{
+	width: 75%;
+}
+
+.produtoDestaque h3{
+	font-size: 200%;
+}
+
+#rodape{
+	background-color: rgb(150,150,150);
+	margin-top: 20px;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+
+input{
+	width: 100%;
+	height: 30px;
+}
+
+button{
+	margin-top: 20px;
+	width: 100px;
+	height: 30px;
+	box-shadow: rgb(100,100,100) 2px 2px 5px;
+}
+
