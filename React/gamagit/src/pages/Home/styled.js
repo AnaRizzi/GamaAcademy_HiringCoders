@@ -34,3 +34,7 @@ export const Button = styled.button`
     }
 `
 
+export const ErrorMsg = styled.span`
+    display:block;
+    color:red;
+`
